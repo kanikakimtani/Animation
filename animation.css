@@ -1,0 +1,98 @@
+h1{
+	font-size: 50px;
+	text-align: center;
+}
+
+.container{
+	border: 1px solid black;
+	height:300px;
+	width: 700px;
+	position: absolute;
+	left: 320px;
+}
+
+.circle{
+	display: inline-block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: turquoise;
+	position: relative;
+	top: 100px;
+	left: 250px;
+}
+
+
+ #C1{
+ 	animation-name: circles;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+ }
+
+ #C2{
+ 	animation-name: circles;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-delay: 0.1s;
+ }
+
+ #C3 {
+ 	animation-name: circles;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-delay: 0.2s;
+ }
+
+  #C4 {
+ 	animation-name: circles;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-delay: 0.3s;
+ }
+
+  #C5 {
+ 	animation-name: circles;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-delay: 0.4s;
+ }
+
+  #C6 {
+ 	animation-name: circles;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-delay: 0.5s;
+ }
+
+  #C7 {
+ 	animation-name: circles;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-delay: 0.6s;
+ }
+
+  #C8 {
+ 	animation-name: circles;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-delay: 0.7s;
+ }
+@keyframes circles{
+	0% {
+		top: 100px;
+		background-color: turquoise;
+	}
+
+    50% {
+		top: 150px;
+		background-color: #72A0C1;
+	}
+
+	100% {
+		top: 100px;
+		background-color: turquoise;
+	}
+}
+
+
